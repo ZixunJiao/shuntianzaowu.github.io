@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/tk/tk",
+    "pages/shouye/shouye",
+    
+    "pages/wd/wd",
+    "pages/xiangqing/xiangqing"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "造",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "iconPath": "images/sy.png",
+        "selectedIconPath": "images/sy2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tk/tk",
+        "iconPath": "images/tk.png",
+        "selectedIconPath": "images/tk2.png",
+        "text": "图库"
+      },
+      {
+        "pagePath": "pages/wd/wd",
+        "iconPath": "images/wd.png",
+        "selectedIconPath": "images/wd2.png",
+        "text": "我的"
+      }
+    ],
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
